@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>자기소개</title>
+</head>
+<body>
+    <div class = "introduce">
+        <h1>자기 소개</h1>
+        <ul>
+            <li>이름 : Split</li>
+            <li>사는 곳 : 동탄</li>
+            <li>안녕하세요 저는 Split입니다. 만나서 반갑습니다. 웹사이트는 처음 만들어봅니다 그래서 이럽니다. 죄송합니다ㅌㅈ</ul>
+        </ul>
+    </div>
+    <div class = "recommendMovie">
+        <h2>인생 영화 BEST5</h2>
+        <table border="1"> 
+            <tr align="center">
+                <td>순위</td>
+                <td>제목</td>
+                <td>포스터</td>
+                <td>줄거리</td>
+                <td>바로가기</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>해리포터와 마법사의 돌</td>
+                <td>
+                    <img src="../images/마법사의돌.jpeg">
+                </td>
+                <td>
+                    해리는 우여곡절 끝에 자신이 마법사라는 사실을 알고 호그와트로 가게 된다.
+                </td>
+                <td>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=30688" target="_blank">
+                        네이버 영화
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>해리포터와 비밀의 방</td>
+                <td>
+                    <img src="../images/비밀의 방.jpeg">
+                </td>
+                <td>해리는 론과 함께 론의 여동생 지니를 구출하기 위해 비밀의 방에 간다.</td>
+                <td>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=33930" target="_blank">
+                        네이버 영화
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>해리포터와 아즈카반의 죄수</td>
+                <td>
+                    <img src="../images/아즈카반의 죄수.jpeg">
+                </td>
+                <td>아즈카반의 감옥을 탈출한 시리우스 블랙이라는 위험한 마법사가 해리를 찾는다.</td>
+                <td>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=35546" target="_blank">
+                        네이버 영화
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>해리포터와 불의 잔</td>
+                <td>
+                    <img src="../images/불의 잔.jpeg">
+                </td>
+                <td>호그와트는 트라이위저드 시합을 개최하게 되고 4번째 참가자로 해리가 뽑힌다.</td>
+                <td>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=37883" target="_blank">
+                        네이버 영화
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>해리포터와 불사조 기사단</td>
+                <td>
+                    <img src="../images/불사조 기사단.jpeg">
+                </td>
+                <td>해리는 호그와트에 복귀한다. 새로 부임한 덜로리스 엄브리지 교수는 알버스 덤블도어 교장의 반대편인 코닐리어스 퍼지 마법 정부 총리의 심복이다.
+                    해리는 덤블도어의 군대(Dumbldore's Army)라는 어둠의 마법 방어법 모임을 조직, 몰래 마법을 익힌다
+                </td>
+                <td>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=57095" target="_blank">
+                        네이버 영화
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class = "visitor">
+        <h2>방명록</h2>
+        <p>이름 : <input type="text" style="width:500px"></p>
+        <input class="movieCheck" type="radio" name = "마법사의 돌" value="movie"> 해리포터와 마법사의 돌
+        <input class="movieCheck" type="radio" name = "비밀의 방" value="movie"> 해리포터와 비밀의 방
+        <input class="movieCheck" type="radio" name = "아즈카반의 죄수" value="movie"> 해리포터와 아즈카반의 죄수
+        <input class="movieCheck" type="radio" name = "불의 잔" value="movie"> 해리포터와 불의 잔
+        <input class="movieCheck" type="radio" name = "불사조 기사단" value="movie"> 해리포터와 불사조 기사단
+        <br>
+        <button id="submit">등록</button>
+        <button id="reset">리셋</button>
+    </div>
+</body>
+<script src="../js/function.js"></script>
+</html>
